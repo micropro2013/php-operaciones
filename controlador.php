@@ -20,4 +20,8 @@ class controlador {
         $n3=$n1-$n2;
         return $n3;
     }
+    function  multiplicacion($n1,$n2){
+        $n3=$n1*$n2;
+        return $n3;
+    }
 }
