@@ -11,13 +11,13 @@
        require("controlador.php");      
        $insta = new controlador();
        echo("<h2>suma de 3 + 4 </h2>");
-       echo("<h2>====>>>es igual a: - ".$insta->suma(3, 4)."</h2><br><br>");
+       echo("<h2>====>>>es igual a: -> ".$insta->suma(3, 4)."</h2><br><br>");
        
        echo("<h2>resta de 10 - 4 </h2>");
-       echo("<h2>====>>>es igual a: - ".$insta->resta(10, 4)."</h2><br><br>");
+       echo("<h2>====>>>es igual a: -> ".$insta->resta(10, 4)."</h2><br><br>");
        
        echo("<h2>resta de 15 * 4 </h2>");
-       echo("<h2>====>>>es igual a: - ".$insta->multiplicacion(15, 4)."</h2><br><br>");
+       echo("<h2>====>>>es igual a: -> ".$insta->multiplicacion(15, 4)."</h2><br><br>");
        ?>
         
         
